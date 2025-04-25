@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboSZN</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts (Only necessary fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Nunito:wght@400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="overlay"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/logo2Cropped.png" alt="RoboSZN Logo" class="nav-logo me-2" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Meet the Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#join">Join Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <img src="images/RoboSZNLanding2png.png" alt="RoboSZN Hero Image" class="hero-img" />
+    <p class="hero-tagline mt-4">Coding, Robotics & AI for Kids in Grades 1–12</p>
+    <div>
+      <a href="#join" class="btn btn-primary btn-lg">Join the Movement</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section py-5 text-white text-center mt-0">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">Why RoboSZN?</h2>
+      <p class="lead mx-auto" style="max-width: 720px;">
+        RoboSZN is a coding and robotics club for kids in Grades 1 to 12 designed to develop future-ready skills through hands-on projects, competitions, and real-world challenges.
+        With a unique gamified and season-based learning journey—SeedSZN to FutureSZN—we teach coding, robotics, and an emphasis on AI in a fun, progressive, and accessible way.
+      </p>
+
+      <div class="row mt-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="images/teacher.jpg" alt="Team working on robotics" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6 text-start mt-4">
+          <h4 class="text-info">Our Mission</h4>
+          <p>To empower the next generation of innovators in South Africa with coding, robotics, and AI skills—one season at a time.</p>
+
+          <h4 class="text-info">Our Story</h4>
+          <p>RoboSZN was created to fill a critical gap in communities like Secunda—where learners have passion, potential, and creativity, but limited access to future-focused tech education.
+            We started with a simple idea: give kids the tools to code, build, and solve real problems—while having fun and leveling up like they do in games.
+          </p>
+
+          <h4 class="text-info">Our Core Values</h4>
+          <ul class="list-unstyled">
+            <li>🤖 Hands-On Learning – Kids learn by doing, not memorizing</li>
+            <li>🧠 Real-World Relevance – AI, electronics, robotics</li>
+            <li>🚀 Gamified Progression – XP, badges, and real rewards</li>
+            <li>🎯 Inclusive & Encouraging – Especially for girls & first-time tech learners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs" class="programs-section py-5 text-white text-center position-relative">
+    <div class="container">
+      <h2 class="display-4 fw-bold neon-text mb-5">📍 Programs by RoboSZN</h2>
+  
+      <!-- Timeline Content -->
+      <div class="szn-timeline">
+  
+        <!-- SeedSZN -->
+        <div class="szn-step">
+          <h3>🌱 SeedSZN</h3>
+          <p>Students get introduced to logic, creativity, and the joy of solving problems.</p>
+          <ul>
+            <li>🎨 Skills: Design Thinking, Storytelling</li>
+            <li>🧩 Tools: Scratch Jr, Paper Prototyping</li>
+            <li>🎓 Output: Digital Stories, Game Ideas</li>
+          </ul>
+        </div>
+  
+        <!-- BuildSZN -->
+        <div class="szn-step">
+          <h3>🛠️ BuildSZN</h3>
+          <p>Hands-on building with real-world kits and creative circuits.</p>
+          <ul>
+            <li>⚙️ Skills: Engineering Basics, Spatial Thinking</li>
+            <li>🧰 Tools: LEGO SPIKE Prime, Arduino Basics</li>
+            <li>🎓 Output: Physical Models & Mini Robots</li>
+          </ul>
+        </div>
+  
+        <!-- CodeSZN -->
+        <div class="szn-step">
+          <h3>💻 CodeSZN</h3>
+          <p>Dive into real coding logic and software systems.</p>
+          <ul>
+            <li>🔁 Skills: Loops, Conditions, Functions</li>
+            <li>🖥 Tools: Scratch, Python, TinkerCAD</li>
+            <li>🎓 Output: Games, Simulations, Virtual Circuits</li>
+          </ul>
+        </div>
+  
+        <!-- CompeteSZN -->
+        <div class="szn-step">
+          <h3>🏆 CompeteSZN</h3>
+          <p>Students apply what they’ve learned in friendly challenges and competitions.</p>
+          <ul>
+            <li>🎯 Skills: Teamwork, Strategy, Presentation</li>
+            <li>🤖 Platforms: WRO, Local Robotics Leagues</li>
+            <li>🎓 Output: Robotics Matches, Team Projects</li>
+          </ul>
+        </div>
+  
+        <!-- FutureSZN -->
+        <div class="szn-step">
+          <h3>🤖 FutureSZN</h3>
+          <p>Advanced AI thinking, real-world problems, and future careers.</p>
+          <ul>
+            <li>🧠 Skills: AI, Data Thinking, Automation</li>
+            <li>📱 Tools: ChatGPT, Teachable Machine, Sensors</li>
+            <li>🎓 Output: Smart Projects, AI-Inspired Builds</li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Meet the Team -->
+  <section id="team" class="team-section py-5 text-center text-white">
+    <div class="container">
+      <h2 class="display-4 fw-bold neon-text mb-5 d-flex justify-content-center align-items-center gap-3">
+        <img src="assets/futuristic_logo_rmbg.png" alt="SZN Icon" style="height: 48px;" />
+        Squad Roster: Meet the Team
+      </h2>
+
+      <div class="row justify-content-center g-4">
+        <!-- Zamantima -->
+        <div class="col-md-5 col-lg-4">
+          <div class="player-card p-4 rounded">
+            <img src="lead players/Zama.jpg" alt="Zamantima Thela" class="player-avatar mb-3">
+            <h4 class="player-name">Zamantima Thela</h4>
+            <p class="player-role">📘 Curriculum & Learning Lead, Founder</p>
+            <ul class="player-stats list-unstyled mt-3">
+              <li>A former high school Computer Science teacher with a passion for innovative education. Zamantima designs creative, hands-on learning experiences that make robotics and coding fun and accessible for every learner.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Ntokozo -->
+        <div class="col-md-5 col-lg-4">
+          <div class="player-card p-4 rounded">
+            <img src="lead players/Ntokozo.jpg" alt="Ntokozo Ngwenya" class="player-avatar mb-3">
+            <h4 class="player-name">Ntokozo Ngwenya</h4>
+            <p class="player-role">🚀 Mech-Tech Mentor, Founder</p>
+            <ul class="player-stats list-unstyled mt-4 p-1">
+              <li>Mechanical engineer and coding enthusiast, passionate about equipping young South Africans with real-world engineering skills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="join-section py-5 text-white text-center">
+    <div class="container">
+      <h2 class="display-4 fw-bold neon-text mb-4">🚀 Join the RoboSZN Movement</h2>
+      <p class="lead mb-5">Ready to level up? Fill out this form and join the adventure!</p>
+  
+      <form action="https://formsubmit.io/send/roboszngrp@gmail.com" method="POST" class="join-form mx-auto text-start" style="max-width: 600px;">
+        <input name="_redirect" type="hidden" value="https://yourdomain.com/thank-you.html">
+        <input name="_captcha" type="hidden" value="false">
+      
+        <div class="mb-3">
+          <label for="name" class="form-label">Parent Full Name</label>
+          <input type="text" name="Full Name" class="form-control" id="name" required />
+        </div>
+      
+        <div class="mb-3">
+          <label for="email" class="form-label">Parent Email</label>
+          <input type="email" name="Email" class="form-control" id="email" required />
+        </div>
+      
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" name="Phone" class="form-control" id="phone" required />
+        </div>
+      
+        <div class="mb-3">
+          <label for="grade" class="form-label">Grade</label>
+          <select class="form-select" name="Grade" id="grade" required>
+            <option value="" disabled selected>Select Grade</option>
+            <option>Grade 1</option>
+            <option>Grade 2</option>
+            <option>Grade 3</option>
+            <option>Grade 4</option>
+            <option>Grade 5</option>
+            <option>Grade 6</option>
+            <option>Grade 7</option>
+            <option>Grade 8</option>
+            <option>Grade 9</option>
+            <option>Grade 10</option>
+            <option>Grade 11</option>
+            <option>Grade 12</option>
+          </select>
+        </div>
+      
+        <div class="mb-3">
+          <label for="school" class="form-label">School Name</label>
+          <input type="text" name="School" class="form-control" id="school" />
+        </div>
+      
+        <!--<div class="mb-3">
+          <label for="program" class="form-label">Which SZN are you interested in?</label>
+          <select class="form-select" name="Program Interest" id="program" required>
+            <option disabled selected>Select SZN</option>
+            <option>🌱 SeedSZN</option>
+            <option>🛠️ BuildSZN</option>
+            <option>💻 CodeSZN</option>
+            <option>🏆 CompeteSZN</option>
+            <option>🤖 FutureSZN</option>
+          </select>
+        </div> -->
+      
+        <div class="mb-4">
+          <label for="motivation" class="form-label">Why do you want to join? (optional)</label>
+          <textarea class="form-control" name="Motivation" id="motivation" rows="3"></textarea>
+        </div>
+      
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-5">Submit</button>
+        </div>
+      </form>
+      
+    </div>
+  </section>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
