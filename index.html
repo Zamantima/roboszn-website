@@ -249,27 +249,40 @@
     </div>
   </section>
 
-  <section id="join" class="join-section py-5 text-white text-center">
-    <div class="container">
-      <h2 class="display-4 fw-bold mb-4">🚀 Join the RoboSZN Movement</h2>
-      <p class="lead mb-5">Ready to level up? Fill out this form and join the adventure!</p>
+<section id="join" class="join-section py-5 text-white text-center">
+  <div class="container">
+    <h2 class="display-4 fw-bold mb-4">🚀 Join the RoboSZN Movement</h2>
+    <p class="lead mb-4">Choose how you'd like to connect with us:</p>
+
+    <div class="d-flex justify-content-center mb-4 gap-2">
+      <button class="btn btn-outline-info toggle-form" data-target="club-form">Join the Club</button>
+      <button class="btn btn-outline-info toggle-form" data-target="open-day-form">Open Day Sign-Up</button>
+    </div>
+
+    <!-- Club Form -->
+    <div id="club-form" class="form-toggle">
+      <!-- Paste your full Join the Club form here -->
+      <section id="join" class="join-section py-5 text-white text-center">
+        <div class="container">
+          <h2 class="display-4 fw-bold mb-4">🚀 Join the RoboSZN Club</h2>
+            <p class="lead mb-5">Ready to level up? Fill out this form and join the adventure!</p>
   
-      <form action="https://formsubmit.co/info@roboszn.co.za" method="POST" class="join-form mx-auto text-start" style="max-width: 600px;">
+            <form action="https://formsubmit.co/info@roboszn.co.za" method="POST" class="join-form mx-auto text-start" style="max-width: 600px;">
       
-        <div class="mb-3">
-          <label for="name" class="form-label">Parent Full Name</label>
-          <input type="text" name="Full Name" class="form-control" id="name" required />
-        </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Parent Full Name</label>
+              <input type="text" name="Full Name" class="form-control" id="name" required />
+            </div>
         
-        <div class="mb-3">
-          <label for="name" class="form-label">Student Full Name</label>
-          <input type="text" name="Full Name" class="form-control" id="name" required />
-        </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Student Full Name</label>
+            <input type="text" name="Full Name" class="form-control" id="name" required />
+          </div>
       
-        <div class="mb-3">
-          <label for="email" class="form-label">Parent Email</label>
-          <input type="email" name="Email" class="form-control" id="email" required />
-        </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Parent Email</label>
+            <input type="email" name="Email" class="form-control" id="email" required />
+          </div>
       
         <div class="mb-3">
           <label for="phone" class="form-label">Parent Phone Number</label>
@@ -404,6 +417,80 @@
     </div>
   </section>
 
+    </div>
+
+    <!-- Open Day Form -->
+    <div id="open-day-form" class="form-toggle d-none">
+      <!-- Paste your Open Day form here -->
+        <section id="openday" class="join-section py-5 text-white text-center">
+  <div class="container">
+    <h2 class="display-5 fw-bold mb-4">🎉 Sign Up for Our Open Day!</h2>
+    <p class="lead mb-4">Come experience the future of learning! Fill out the form to book your spot.</p>
+
+    <form action="https://formsubmit.co/info@roboszn.co.za" method="POST" class="join-form mx-auto text-start" style="max-width: 600px;">
+      
+      <div class="mb-3">
+        <label class="form-label">Parent Full Name</label>
+        <input type="text" name="Parent Name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Parent Email</label>
+        <input type="email" name="Parent Email" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" name="Phone Number" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Student Full Name</label>
+        <input type="text" name="Student Name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Student Grade</label>
+        <select name="Student Grade" class="form-select" required>
+          <option value="" disabled selected>Select Grade</option>
+          <option>Grade 1</option>
+          <option>Grade 2</option>
+          <option>Grade 3</option>
+          <option>Grade 4</option>
+          <option>Grade 5</option>
+          <option>Grade 6</option>
+          <option>Grade 7</option>
+          <option>Grade 8</option>
+          <option>Grade 9</option>
+          <option>Grade 10</option>
+          <option>Grade 11</option>
+          <option>Grade 12</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Preferred Open Day</label>
+        <select name="Open Day Date" class="form-select" required>
+          <option value="" disabled selected>Select Date</option>
+          <option>Saturday, June 14 – 10:00 AM</option>
+          <option>Saturday, June 21 – 10:00 AM</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Additional Comments (optional)</label>
+        <textarea name="Comments" class="form-control" rows="3"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-5">Book My Spot</button>
+      </div>
+    </form>
+  </div>
+</section>
+    </div>
+  </div>
+</section>
 
   <footer class="footer py-4">
     <div class="container text-center text-white">
@@ -435,18 +522,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Bootstrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-    // Add mobile tap support
-    document.querySelectorAll('.flip-card').forEach(card => {
-      card.addEventListener('click', () => {
-        card.classList.toggle('tapped');
+      document.querySelectorAll('.toggle-form').forEach(button => {
+        button.addEventListener('click', function () {
+          const target = this.dataset.target;
+          document.querySelectorAll('.form-toggle').forEach(form => {
+            form.classList.add('d-none');
+          });
+          document.getElementById(target).classList.remove('d-none');
+        });
       });
-    });
   </script>
-
-
-
 </body>
 </html>
