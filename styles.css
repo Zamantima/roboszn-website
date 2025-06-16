@@ -278,6 +278,11 @@ body::before {
   color: #ccc;
 }
 
+.form-select option:disabled {
+  color: #888;
+  font-style: italic;
+}
+
 .form-check-input:checked {
   background-color: #00FFF0;
   border-color: #00FFF0;
