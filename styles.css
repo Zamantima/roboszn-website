@@ -370,6 +370,23 @@ body::before {
   color: #cccccc;
 }
 
+.founder-socials a.social-icon {
+  color: #00FFF0;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.founder-socials a.social-icon:hover {
+  color: white;
+  text-shadow:
+    0 0 5px #00FFF0,
+    0 0 10px #00FFF0,
+    0 0 20px rgba(0, 255, 240, 0.7);
+}
+
 /* SZN Map */
 .szn-map-section {
   background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
