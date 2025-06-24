@@ -445,6 +445,19 @@ body::before {
   backdrop-filter: blur(6px);
 }
 
+.table td, .table th {
+  font-size: 0.85rem;
+  padding: 0.5rem;
+}
+
+.table {
+  width: 50%;
+  height: 60%;
+  max-width: 900px;
+  margin: auto;
+}
+
+
 .szn-card {
   background: rgba(0, 0, 0, 0.75);
   border: 2px solid #00FFF0;
